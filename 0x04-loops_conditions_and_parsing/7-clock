@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
-# Displays the time for 12 horus and 59 minutes.
-# Displays minutes from 1 to 59
-
-hour=0
-
-while [ $count -le 12 ]
+# Prints a 12hr clock
+HOUR=0
+while [ $HOUR != 13 ];
 do
-	echo "Hour: $hour"
-	minute=1
-	while [ $minute -le 59 ]
+	echo "Hour: $HOUR"
+	MINUTE=1
+
+	while [ $MINUTE != 60 ];
 	do
-		echo "$minute"
-		(( minute++ ))
+		echo "$MINUTE"
+		((MINUTE=MINUTE+1))
 	done
-	(( hour++ ))
+
+	((HOUR=HOUR+1))
 done
