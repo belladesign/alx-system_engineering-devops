@@ -13,7 +13,7 @@
 ```
 ubuntu@web01$ sudo service airbnb-onepage start
  airbnb-onepage start/running, process 17981
-ubuntu@web01$ curl http://127.0.0.1:8000
+ubuntu@229-web-01:~$ curl 127.0.0.1:5000
  Hello HBNB!
 ubuntu@web01$ curl http://127.0.0.1/airbnb-onepage/
 Hello HBNB!
@@ -48,7 +48,7 @@ ubuntu@web01$ curl http://127.0.0.1/airbnb-dynamic/number_odd_or_even/1
 
 ### Environment
 * Technologies: Gunicorn, Upstart scripts
-* OS: Ubuntu 14.04 LTS
+* OS: Ubuntu 16.04 LTS
 * Web Server: Nginx
 
 ---
