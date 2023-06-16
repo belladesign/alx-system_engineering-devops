@@ -52,5 +52,7 @@ ubuntu@web01$ curl http://127.0.0.1/airbnb-dynamic/number_odd_or_even/1
 * Web Server: Nginx
 
 ---
-### Authors
-Melissa Ng [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/30px-Twitter_Bird.svg.png)](https://twitter.com/MelissaNg__)
+
+
+##AUTHOR
+Bella Okafor <estelleokafor@gmail.com>
